@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.std-form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.sbmt{
+    border-radius: 10px;
+    border-color: #009DFF;
+    background-color: #009DFF;
+    color: #fff;
+    font-style: bold;
+    font-weight: 700;
+    height: 40px;
+    
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #009DFF;
+    border-radius: 6px;
+
+}
+
+.main-headers{
+    font-family: "Cambay", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  label{
+    font-family: "Cambay", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
