@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Cambay", sans-serif;
+}
 .std-form{
     display: flex;
     flex-direction: column;
@@ -31,7 +37,74 @@ input{
     font-style: normal;
   }
   label{
-    font-family: "Cambay", sans-serif;
+    
     font-weight: 400;
     font-style: normal;
   }
+  .side-nav{
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    /* width: 20%; */
+    background-color: #8c00ff;
+    height: 100%;
+  }
+    .parent-nav {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      }
+      
+    .main-header { 
+      grid-area: 1 / 2 / 2 / 6; 
+    }
+    .side-nav {
+       grid-area: 1 / 1 / 6 / 2; 
+    }
+  .nav-link{
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    
+  }
+  .nav{
+    color: #fff;
+    text-decoration: none;
+  }
+  ol{
+    font-family: "Cambay", sans-serif;
+    padding-bottom:10px;
+    font-size: medium;
+    font-weight: 600;
+  }
+  .main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Cambay", sans-serif;
+    color: #8c00ff;
+
+  }
+i{
+    color: #fff;
+}
+.pfp{
+    border: #009DFF 2px solid;
+    border-radius: 50%;
+}
+.parent-pop{
+    background-color: rgba(119, 115, 115, 0.2);
+}
+.pop-up{
+    width: 50%;
+    border: 1px  solid #009DFF;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 25%;
+}
